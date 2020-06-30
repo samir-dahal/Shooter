@@ -14,7 +14,7 @@ namespace CatchItUI
         private ConsoleColor _color { get; set; }
         private static List<Particle> _particles { get; set; } = new List<Particle>();
         public static int Points { get; set; }
-        public static void Create(int count = 10)
+        public static void Create(int count = 5)
         {
             for (int i = 0; i < count; i++)
             {
